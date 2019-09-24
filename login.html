@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Staff Login Page</title>
+		<!-- <style type="text/css"></style> -->
+		
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>Sign In</h1>
+			
+			<nav>
+				<ul>
+					<li></li>  <!-- a href tags come in the <li> tags -->
+					<li></li>   <!-- nav is for menu -->
+				</ul>
+			</nav>
+		</header>
+
+		
+
+
+		<form action="processLogin.php" method="post">
+
+			  <div class="form-group">
+			   	<div class="row-4">
+			   		<label>Staff ID: </label>			      	
+			    </div>
+
+			    <div class="row-4">
+			      	<input name="staffid" type="text" placeholder="Enter Staff ID" maxlength="10" required>
+			    </div>
+
+			    <p><p><p>
+
+			    <div class="row-4">
+			    	<label>Password: </label>
+			    </div>
+
+			    <div class="row-4">
+			      	<input name="password" type="password" placeholder="Enter Password" maxlength="30" required>
+			    </div>
+			  </div>
+
+			  	<p><p>
+
+			  	<div class="row-4">
+			  		<button type="submit" class="btn btn-primary submit">Login</button>
+			  	</div>
+
+			  	<p><p>Click to <a href="index.html">Sign Up</a></p></p>
+		</form>
+
+
+	</body>
+</html>

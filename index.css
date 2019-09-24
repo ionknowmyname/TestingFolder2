@@ -1,0 +1,24 @@
+.submit{
+	margin-left: 100px;
+}
+
+body {
+	/*background-color: blue;*/
+	text-align: center;
+	margin: 6em;
+	margin-left: 15em; 
+	width: 66%;width: 66%;
+}
+
+header{
+	height: 200px;
+	color: #ddd;
+}
+
+/*#floatleft{
+	float:left;
+}
+
+#floatright{
+	float:right;
+}*/
