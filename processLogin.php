@@ -31,7 +31,7 @@
 		     				while ($row = $query->fetch_assoc()) {
 		     					echo "First Name: " .$row['firstName'];
 								$_SESSION['staffLogin'] = $row['staffLogin'];
-		     					//header('Location:home.html');
+		     					//header('Location:home.php');
 		     				}
 		     			}else{
 		     				echo "<script type='text/javascript'>alert('Wrong Staff ID or Password'); window.location='login.html'; </script>";
