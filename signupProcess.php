@@ -39,7 +39,7 @@
 				     		//if not in DB, insert into DB
 							$sql2 = "INSERT INTO tblusers (firstName, lastName, Email, staffLogin, staffPassword) values ('$firstName', '$lastName', '$email', '$login', '$password')";
 								if($conn->query($sql2)){
-									echo "New record is inserted successfully";
+									echo "<script type='text/javascript'>alert('New record is inserted successfully'); window.location='login.html';</script>";
 								}else{
 									echo "Error: ". $sql2 ."<br>". $conn->error;
 								}
@@ -51,6 +51,6 @@
 			echo "<script type='text/javascript'>alert('Either Staff ID or Password is empty'); window.location='index.html';</script>";
 		}
 	}else{
-		echo "<script type='text/javascript'>alert('Either Email or Last Name is empty'); window.location='index.html'; </script>";	
+		echo "<script type='text/javascript'>alert('Either First Name or Last Name is empty'); window.location='index.html'; </script>";	
 	}  	
 ?>
